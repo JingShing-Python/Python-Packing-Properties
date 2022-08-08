@@ -128,4 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-version-model.txt linguist-generated=true
+Python-Packing-Properties/version-model.txt linguist-generated=true
