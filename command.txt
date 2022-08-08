@@ -1,1 +1,2 @@
+using pyinstaller and add this line
 --version-file version.txt

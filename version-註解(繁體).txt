@@ -1,0 +1,39 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    # filevers 和 prodvers 應該為有四個元素的元組如： (1, 2, 3, 4)
+    # 將不需要的元素設為:零 0.
+    filevers=(x, x, x, x), #<- 在這裡放所需要的版本號，替換掉X
+    # prodvers=(3, 0, 10, 2),
+    # 內含遮罩以指定所需的有效位的'flags'
+    mask=0x3f, #<- 不可更改
+    # 內含遮罩以指定檔案所需的布林屬性的'flags'
+    flags=0x0, #<- 不可更改
+    # 作業系統
+    # 0x4 - 沒必要更改
+    OS=0x4, #<- 不可更改
+    # 檔案的類別
+    # 0x1 - 代表此檔案為應用程式
+    fileType=0x1, #<- 不可更改
+    # 這個檔案的function
+    # 0x0 - function 沒有為這個檔案格式定義
+    subtype=0x0, #<- 不可更改
+    # 製作日期和圖章，會自動填寫，不可更改
+    date=(0, 0) #<- 不可更改
+    ),
+  kids=[ 
+    StringFileInfo( 
+      [ 
+      StringTable(
+        u'040904b0',
+        [StringStruct(u'CompanyName', u'公司名'),
+        StringStruct(u'ProductName', u'程式名'),
+        StringStruct(u'ProductVersion', u'x.x.x.x'), #<- 必須和版本號一樣
+        StringStruct(u'OriginalFilename', u'產品名.exe'),
+        StringStruct(u'FileDescription', u'程式介紹'),
+        StringStruct(u'LegalCopyright', u'版權的東西'),
+        StringStruct(u'LegalTrademarks', u'法律的東西'),])
+      ]),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)

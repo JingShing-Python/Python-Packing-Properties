@@ -1,6 +1,7 @@
 VSVersionInfo(
   ffi=FixedFileInfo(
     filevers=(x, x, x, x),
+    # prodvers=(3, 0, 10, 2),
     mask=0x3f,
     flags=0x0, 
     OS=0x4, 
@@ -13,13 +14,13 @@ VSVersionInfo(
       [ 
       StringTable(
         u'040904b0',
-        [StringStruct(u'CompanyName', u'Your name here'),
-        StringStruct(u'ProductName', u'name here'),
+        [StringStruct(u'CompanyName', u'Maker name'),
+        StringStruct(u'ProductName', u'exe name'),
         StringStruct(u'ProductVersion', u'x.x.x.x'), 
-        StringStruct(u'OriginalFilename', u'productname.exe'),
-        StringStruct(u'FileDescription', u'Short description goes here'),
-        StringStruct(u'LegalCopyright', u'copyright stuff here'),
-        StringStruct(u'LegalTrademarks', u'legal stuff here'),])
+        StringStruct(u'OriginalFilename', u'exename.exe'),
+        StringStruct(u'FileDescription', u'Short description here'),
+        StringStruct(u'LegalCopyright', u'copyright here'),
+        StringStruct(u'LegalTrademarks', u'legal here'),])
       ]),
     VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
   ]
