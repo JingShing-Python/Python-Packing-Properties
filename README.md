@@ -6,5 +6,5 @@ Edit python exe properties. With pyinstaller.
 
 ## Version
 * [繁體中文註釋](version-註解(繁體).txt)
-* [簡體中文註釋](version-注解(简体).txt)
+* [简体中文註釋](version-注解(简体).txt)
 * [English Comment](version-model.txt)
